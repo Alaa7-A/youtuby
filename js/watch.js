@@ -1,12 +1,12 @@
 $(document).ready(function () {
-    /*عند الضغط على الزر استدعي الدالة لتعمل وتظهر وتخفي النص*/
-    $("#myBtn").on("click", function(){
-        read();
-    });
-    /*إظهار وإخفاء الردود*/
-    $(".reply").click(function() {
-        $(this).parents("div.row").next("div.card").toggle();
-    });
+  /*عند الضغط على الزر استدعي الدالة لتعمل وتظهر وتخفي النص*/
+  $("#myBtn").on("click", function(){
+      read();
+  });
+  /*إظهار وإخفاء الردود*/
+  $(".reply").click(function() {
+      $(this).parents("div.row").next("div.card").toggle();
+  });
 });
 
 /*الدالة التي نستخدمها لإظهار وإخفاء العناصر*/
